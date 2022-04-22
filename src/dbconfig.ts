@@ -4,9 +4,9 @@ const config: ConnectionOptions = {
     type: 'postgres',
     host: 'localhost',
     port: 5432,
-    username: 'postgres',
-    password: 'vitalij',
-    database: 'userdata',
+    username: 'any',
+    password: 'any',
+    database: 'any',
     entities: [__dirname + '/**/*.entity{.ts,.js}'],
     synchronize: true,
 };
